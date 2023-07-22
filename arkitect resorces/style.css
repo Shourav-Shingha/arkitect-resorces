@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Playfair+Display:wght@800&family=Rajdhani&family=Work+Sans:wght@400;600;700;800&display=swap");
+
+body {
+  font-family: "Alegreya", serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Rajdhani", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 135px;
+  width: 120rem;
+  /* height: 62.62rem; */
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-left: 30px;
+}
+.nav li a {
+  text-decoration: none;
+}
+.nav h3 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.banner {
+  /* width: 53.875rem;
+  height: 14rem; */
+  text-align: center;
+  margin: 0px auto;
+}
+.banner div {
+  width: 800px;
+  margin: 0 auto;
+}
+.banner h1 {
+  color: rgba(19, 19, 19, 1);
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+}
+.banner p {
+  color: #727272;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn-primary {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  width: 180px;
+  height: 64px;
+  border: 0px;
+  border-radius: 8px;
+  background: #ff900e;
+  padding: 25px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.banner img {
+  width: 1420px;
+  margin-top: 3.1rem;
+  text-align: center;
+}
