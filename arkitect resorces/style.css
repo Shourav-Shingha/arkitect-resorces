@@ -8,11 +8,18 @@ body {
   margin: 0px;
   padding: 0px;
 }
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 header {
   background: rgba(255, 144, 14, 0.1);
   padding: 50px 135px;
-  width: 120rem;
+  /* width: 120rem; */
   /* height: 62.62rem; */
+  width: 100%;
+  margin: 0 auto;
 }
 .nav {
   display: flex;
@@ -73,7 +80,7 @@ header {
   margin-top: 2rem;
 }
 .banner img {
-  width: 1420px;
+  width: 100%;
   margin-top: 3.1rem;
   text-align: center;
 }

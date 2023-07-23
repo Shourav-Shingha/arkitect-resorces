@@ -1,0 +1,53 @@
+@media screen and (max-width:425px) {
+    /* *{
+        max-width: 425px;
+    } */
+    header{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        justify-content: center;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav h3{
+        font-size: 40px;
+    }
+    .nav > ul{
+        display: inline;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .nav li{
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .banner div{
+        width: 100%;
+    }
+    .banner h1{
+        font-size: 45px;
+        line-break:none;
+    }
+    .banner p{
+        font-size: 15px;
+        margin-top: 10px;
+        
+    }
+    .banner img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .btn-primary{
+       width: 80px;
+       height: 30px;
+       font-size: 10px;
+       padding: 5px;
+       border-radius: 15%;
+       margin-top: 10px;
+    }
+}
