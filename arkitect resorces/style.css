@@ -8,7 +8,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -83,4 +83,48 @@ header {
   width: 100%;
   margin-top: 3.1rem;
   text-align: center;
+}
+/* header section done */
+
+.featurs {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.featurs-img {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.featurs-img img {
+  width: 100%;
+}
+.featurs-text {
+  width: 50%;
+  padding: 0 90px;
+}
+.Quick-list {
+  color: #727272;
+  font-size: 45px;
+  font-weight: 500;
+}
+.of-ours {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+.Features {
+  color: #ff900e;
+  font-size: 45px;
+  font-weight: 700;
+}
+.featurs-text p {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
 }
